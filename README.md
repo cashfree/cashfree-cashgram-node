@@ -1,6 +1,6 @@
 # Cashfree Cashgram Integration Kit for Node
 
-Below is an integration flow on how to use Cashfree's Cashgram.
+Below is an integration flow on how to use Cashfree's payout sdk.
 Please go through the payout docs [here](https://docs.cashfree.com/docs/payout/guide/)
 <br/>
 This kit is linked to the Cashgram flow. Go [here](https://dev.cashfree.com/payouts/integrations/cashgram) to get a better understanding.
@@ -10,9 +10,9 @@ This kit is linked to the Cashgram flow. Go [here](https://dev.cashfree.com/payo
 
 The following kit contains the following functionalities:
     <ol>
-    <li> [getToken](https://dev.cashfree.com/api-reference/payouts-api#authorise): to get auth token to be used in all following calls.
-    <li> [createCashgram](https://dev.cashfree.com/api-reference/payouts-api#create-cashgram-request): to create a cashgram.
-    <li> [cashgramGetStatus](https://dev.cashfree.com/api-reference/payouts-api#create-cashgram-request): get the status of the created cashgram.
+    <li> Init: to initialise the sdk.
+    <li> Cashgram.CreateCashgram: to create a cashgram.
+    <li> Cashgram.GetCashgramStatus: get the status of the created cashgram.
     </ol>
 
 ## Build Steps
@@ -41,7 +41,7 @@ Your IP has to be whitelisted to hit Cashfree's server. For more information ple
 
 The following kit needs Cashgram details to create a cashgram. To know more information on how to create cashgrams please go [here](https://dev.cashfree.com/api-reference/payouts-api#create-cashgram-request).
 
-The kit picks up the cashgram details from the config file cashgramDetails section.
+The kit picks up the cashgram details from the app.js file cashgram object.
 Required Fields are:
   1. cashgramId: unique Id of the created cashgram.
   2. amount: amount to be transferred.
@@ -50,7 +50,7 @@ Required Fields are:
 
 ## Usage
 
-Once the config file is setup you can run the executable, to run the entire flow. Authorise, create a cashgram 
+Once the app.js file is setup you can run the executable, to run the entire flow. Authorise, create a cashgram 
 and check the status of the created cashgram.
 
 run the following command from the terminal to run the script:
@@ -58,7 +58,7 @@ run the following command from the terminal to run the script:
   node app.js
 ```
 
-You can change the necessary values in the config file as per your requirements and re run the script whenever needed.
+You can change the necessary values in the app.js file as per your requirements and re run the script whenever needed.
 
 ## Doubts
 
