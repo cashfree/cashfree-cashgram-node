@@ -1,5 +1,5 @@
 {
-  "name": "cashgram_node",
+  "name": "cashgram",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,6 +9,6 @@
   "author": "vrishab@cashfree.com",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.0"
+    "cashfree-sdk": "git+https://github.com/cashfree/cashfree-sdk-nodejs.git"
   }
 }
