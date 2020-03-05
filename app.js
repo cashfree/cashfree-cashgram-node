@@ -1,4 +1,3 @@
-
 /*
 Below is an integration flow on how to use Cashfree's sdk to use the cashgram feature.
 Please go through the payout docs here: https://dev.cashfree.com/payouts
@@ -17,9 +16,9 @@ const {Cashgram} = Payouts;
 
 const config = {
     Payouts: {
-        "ClientID": "client_id",
-        "ClientSecret": "client_secret",
-        "ENV": "TEST",
+        ClientID: "client_id",
+        ClientSecret: "client_secret",
+        ENV: "TEST",
     }
 };
 
@@ -30,12 +29,12 @@ const handleResponse = (response) => {
 };
 
 const cashgram = {
-    cashgramId: "cf11",
+    cashgramId: "cf675",
     amount: "1.00",
     name: "sameera",
     email: "sameera@cashfree.com",
     phone: "9000000001",
-    linkExpiry: "2020/01/12",
+    linkExpiry: "2020/03/10",
     remarks: "sample cashgram",
     notifyCustomer: 1
 };

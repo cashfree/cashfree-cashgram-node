@@ -1,7 +1,7 @@
 {
   "name": "cashgram",
   "version": "1.0.0",
-  "description": "",
+  "description": "cashfree integration sample to use node sdk for creating cashgram",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,6 @@
   "author": "vrishab@cashfree.com",
   "license": "ISC",
   "dependencies": {
-    "cashfree-sdk": "git+https://github.com/cashfree/cashfree-sdk-nodejs.git"
+    "cashfree-sdk": "^0.1.1"
   }
 }
