@@ -1,7 +1,7 @@
 # Cashfree Cashgram Integration Kit for Node
 
 Below is an integration flow on how to use Cashfree's payout node SDK.
-Please go through the payout docs [here](https://dev.cashfree.com/payouts)
+Please go through the payout docs [here](https://dev.cashfree.com/payouts).
 <br/>
 This kit is linked to the Cashgram flow. Go [here](https://dev.cashfree.com/payouts/integrations/cashgram) to get a better understanding.
 <br/>
